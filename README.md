@@ -92,7 +92,30 @@ The real datasets are derived from electronic health records and include:
   **PLOS One**, 13(7):e0200893, 2018.  
   DOI: https://doi.org/10.1371/journal.pone.0200893
 
-The datasets can be found in the "External_tools" directory.
+### Data Availability
+
+The EHR datasets employed in this study are publicly available in the supplementary materials of the corresponding original publications under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Direct access URLs are provided below:
+
+- **Cardiac Arrest**:  
+  https://figshare.com/articles/dataset/Mortality_after_out-of-hospital_cardiac_arrest_in_a_Spanish_Region/4876247?file=8166893
+
+- **ColonRectal Cancer**:  
+  https://figshare.com/articles/dataset/The_effect_of_epidural_analgesia_on_cancer_progression_in_patients_with_stage_IV_colorectal_cancer_after_primary_tumor_resection_A_retrospective_cohort_study/6846365?file=12464069
+
+- **Type 1 Diabetes**:  
+  https://figshare.com/articles/dataset/Circulating_osteocalcin_as_a_bone-derived_hormone_is_inversely_correlated_with_body_fat_in_patients_with_type_1_diabetes/8079389?file=15057092
+
+- **Heart Failure & Depression**:  
+  https://figshare.com/articles/dataset/Comorbid_Depression_and_Heart_Failure_A_Community_Cohort_Study/3916224?file=6130425
+
+- **Neuroblastoma**:  
+  https://doi.org/10.7717/peerj.5665/supp-5
+
+- **Pediatric Brain Tumors**:  
+  https://figshare.com/articles/dataset/Minimal_dataset_/16878192?file=31207500
+
+- **Sepsis & SIRS**:  
+  https://figshare.com/articles/dataset/_C_Reactive_Protein_and_Hemogram_Parameters_for_the_Non_Sepsis_Systemic_Inflammatory_Response_Syndrome_and_Sepsis_What_Do_They_Mean_/1644426?file=2637248
 
 ---
 
