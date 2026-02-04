@@ -43,15 +43,56 @@ No external data files are required for synthetic datasets, as they are generate
 ### Real-World Medical Datasets
 The real datasets are derived from electronic health records and include:
 
-- Neuroblastoma
-- Type 1 Diabetes
-- Sepsis & SIRS
-- Heart Failure & Depression
-- Cardiac Arrest
-- Pediatric Brain Tumor
-- ColonRectal Cancer
+- **Neuroblastoma**  
+  Data derived from the cohort described in:  
+  Ma Y., Zheng J., Feng J., Chen L., Dong K., Xiao X.  
+  *Neuroblastomas in eastern China: a retrospective series study of 275 cases in a regional center.*  
+  **PeerJ**, 6:e5665, 2018.  
+  DOI: https://doi.org/10.7717/peerj.5665
 
-Due to privacy and licensing constraints, **raw medical datasets are not redistributed** in this repository.  
+- **Type 1 Diabetes**  
+  Data informed by the following studies:  
+  Takashi Y., Ishizu M., Mori H., Miyashita K., Sakamoto F., Katakami N., et al.  
+  *Circulating osteocalcin as a bone-derived hormone is inversely correlated with body fat in patients with type 1 diabetes.*  
+  **PLOS One**, 14(5):e0216416, 2019.  
+  DOI: https://doi.org/10.1371/journal.pone.0216416  
+
+- **Sepsis & Systemic Inflammatory Response Syndrome (SIRS)**  
+  Data derived from the following sources:  
+  Gucyetmez B., Atalan H.K.  
+  *C-reactive protein and hemogram parameters for the non-sepsis systemic inflammatory response syndrome and sepsis: what do they mean?*  
+  **PLOS One**, 11(2):e0148699, 2016.  
+  DOI: https://doi.org/10.1371/journal.pone.0148699  
+
+- **Heart Failure & Depression**  
+  Data based on the cohort described in:  
+  Jani B.D., Mair F.S., Roger V.L., Weston S.A., Jiang R., Chamberlain A.M.  
+  *Comorbid depression and heart failure: a community cohort study.*  
+  **PLOS One**, 11(6):e0158570, 2016.  
+  DOI: https://doi.org/10.1371/journal.pone.0158570
+
+- **Cardiac Arrest**  
+  Data derived from:  
+  Requena-Morales R., Palazón-Bru A., Rizo-Baeza M.M., Adsuar-Quesada J.M., Gil-Guillén V.F., Cortés-Castell E.  
+  *Mortality after out-of-hospital cardiac arrest in a Spanish region.*  
+  **PLOS One**, 12(4):e0175818, 2017.  
+  DOI: https://doi.org/10.1371/journal.pone.0175818
+
+- **Pediatric Brain Tumor**  
+  Data informed by:  
+  Stanić D., Grujičić D., Pekmezović T., Bokun J., Popović-Vuković M., Janić D., et al.  
+  *Clinical profile, treatment and outcome of pediatric brain tumors in Serbia in a 10-year period: a national referral institution experience.*  
+  **PLOS One**, 16(10):e0259095, 2021.  
+  DOI: https://doi.org/10.1371/journal.pone.0259095
+
+- **ColonRectal Cancer**  
+  Data derived from:  
+  Tai Y.-H., Chang W.-K., Wu H.-L., Chan M.-Y., Chen H.-H., Chang K.-Y.  
+  *The effect of epidural analgesia on cancer progression in patients with stage IV colorectal cancer after primary tumor resection: a retrospective cohort study.*  
+  **PLOS One**, 13(7):e0200893, 2018.  
+  DOI: https://doi.org/10.1371/journal.pone.0200893
+
+The datasets can be found in the "External_tools" directory.
 
 ---
 
@@ -83,7 +124,9 @@ Before running the notebook, please ensure that:
 The following density-based clustering algorithms are used:
 
 -DBSCAN
+
 -HDBSCAN
+
 -Mean-Shift
 
 Default hyperparameters are used unless otherwise specified.
@@ -101,7 +144,9 @@ A metric is considered reliable if its score consistently worsens as the underly
 #### Cross-Algorithm Consistency on Real-World Data
 For each real-world medical dataset, clustering solutions are generated using three density-based clustering algorithms:
 - DBSCAN
+  
 - HDBSCAN
+
 - Mean-Shift
 
 The agreement between clustering solutions is quantified using the **Adjusted Rand Index (ARI)**. Specifically, ARI values are computed pairwise between the clustering results of the three algorithms and then averaged.
@@ -125,3 +170,6 @@ The following internal clustering validation metrics are evaluated in this study
 
 Each metric is formally defined and mathematically explained in the Methods section of the manuscript.
 
+# Contacts
+
+Questions should be addressed to gsabino147@gmail.com (gsabino147(AT)gmail.com)
