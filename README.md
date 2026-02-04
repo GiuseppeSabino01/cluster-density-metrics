@@ -146,11 +146,11 @@ Before running the notebook, please ensure that:
 
 The following density-based clustering algorithms are used:
 
--DBSCAN
+- DBSCAN
 
--HDBSCAN
+- HDBSCAN
 
--Mean-Shift
+- Mean-Shift
 
 Default hyperparameters are used unless otherwise specified.
 For validation, random hyperparameter configurations are also tested to assess metric robustness.
