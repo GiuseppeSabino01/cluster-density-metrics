@@ -64,8 +64,14 @@ The repository includes:
   - Clustering with DBSCAN, HDBSCAN, and Mean-Shift
   - Computation of internal clustering validation metrics
 
-The main reproduction notebook/script:
-- `DBCV_paper_real.ipynb` – reproduces the experimental pipeline and figures
+The complete experimental pipeline is reproduced using the following notebook:
+
+- `DBCV_paper_real.ipynb` – executes the full workflow, including data generation/loading, clustering, computation of all internal validation metrics, and reproduction of the figures and results reported in the manuscript.
+
+Before running the notebook, please ensure that:
+- all external tools are properly imported,
+- all required dependencies listed in `requirements.txt` are installed.
+
 
 ---
 
