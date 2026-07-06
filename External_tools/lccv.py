@@ -220,6 +220,8 @@ def lccv_score(X, labels):
                 lccv_sum = lccv_sum + (lccv * n_i)
     # reduce local core wise scores to one score for the clustering
     lccv_c = (1 / N) * lccv_sum
+    if lccv_c < 0:
+        lccv_c = 0
     return lccv_c
 
 
